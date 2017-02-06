@@ -6,7 +6,7 @@
 
     <groupId>org.opencb.opencga</groupId>
     <artifactId>opencga</artifactId>
-    <version>0.5.2</version>
+    <version>0.5.3</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -21,8 +21,7 @@
 
     <properties>
         <java.version>1.7</java.version>
-        <opencga.version>0.5.2</opencga.version>
-        <biodata.version>0.4.4</biodata.version>
+        <biodata.version>0.4.6</biodata.version>
         <datastore.version>0.3.3</datastore.version>
         <cellbase.version>3.1.0</cellbase.version>
     </properties>
@@ -103,32 +102,32 @@
             <dependency>
                 <groupId>org.opencb.opencga</groupId>
                 <artifactId>opencga-account</artifactId>
-                <version>${opencga.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.opencb.opencga</groupId>
                 <artifactId>opencga-lib</artifactId>
-                <version>${opencga.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.opencb.opencga</groupId>
                 <artifactId>opencga-analysis</artifactId>
-                <version>${opencga.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.opencb.opencga</groupId>
                 <artifactId>opencga-storage-app</artifactId>
-                <version>${opencga.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.opencb.opencga</groupId>
                 <artifactId>opencga-storage-core</artifactId>
-                <version>${opencga.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.opencb.opencga</groupId>
                 <artifactId>opencga-catalog</artifactId>
-                <version>${opencga.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- OpenCB dependencies -->

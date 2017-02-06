@@ -6,12 +6,11 @@
     <parent>
         <groupId>org.opencb.opencga</groupId>
         <artifactId>opencga</artifactId>
-        <version>0.5.2</version>
+        <version>0.5.3</version>
         <relativePath>..</relativePath>
     </parent>
 
     <artifactId>opencga-app</artifactId>
-    <version>${opencga.version}</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -278,7 +277,7 @@
                 <dependency>
                     <groupId>org.opencb.opencga</groupId>
                     <artifactId>opencga-storage-mongodb</artifactId>
-                    <version>${opencga.version}</version>
+                    <version>${project.version}</version>
                 </dependency>
             </dependencies>
             <properties>
@@ -294,7 +293,7 @@
                 <dependency>
                     <groupId>org.opencb.opencga</groupId>
                     <artifactId>opencga-storage-hbase</artifactId>
-                    <version>${opencga.version}</version>
+                    <version>${project.version}</version>
                 </dependency>
             </dependencies>
         </profile>

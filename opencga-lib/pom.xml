@@ -6,12 +6,11 @@
     <parent>
         <groupId>org.opencb.opencga</groupId>
         <artifactId>opencga</artifactId>
-        <version>0.5.2</version>
+        <version>0.5.3</version>
         <relativePath>..</relativePath>
     </parent>
 
     <artifactId>opencga-lib</artifactId>
-    <version>${opencga.version}</version>
     <packaging>jar</packaging>
 
     <dependencies>
