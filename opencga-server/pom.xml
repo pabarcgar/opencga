@@ -6,12 +6,11 @@
     <parent>
         <groupId>org.opencb.opencga</groupId>
         <artifactId>opencga</artifactId>
-        <version>0.5.2</version>
+        <version>0.5.3</version>
         <relativePath>..</relativePath>
     </parent>
 
     <artifactId>opencga-server</artifactId>
-    <version>${opencga.version}</version>
     <packaging>war</packaging>
 
     <dependencies>
@@ -30,12 +29,12 @@
         <dependency>
             <groupId>org.opencb.opencga</groupId>
             <artifactId>opencga-storage-mongodb</artifactId>
-            <version>${opencga.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.opencb.opencga</groupId>
             <artifactId>opencga-catalog</artifactId>
-            <version>${opencga.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
