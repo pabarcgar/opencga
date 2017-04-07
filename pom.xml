@@ -100,32 +100,32 @@
         <dependencies>
             <!-- Intra-module dependencies -->
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-account</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-lib</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-analysis</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-storage-app</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-storage-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-catalog</artifactId>
                 <version>${project.version}</version>
             </dependency>
