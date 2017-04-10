@@ -26,12 +26,6 @@
         <cellbase.version>3.1.0</cellbase.version>
     </properties>
 
-    <scm>
-        <url>https://github.com/opencb/opencga</url>
-        <connection>scm:git:git://github.com/opencb/opencga.git</connection>
-        <developerConnection>scm:git:git@github.com:opencb/opencga.git</developerConnection>
-    </scm>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
