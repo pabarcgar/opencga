@@ -126,17 +126,17 @@
 
             <!-- OpenCB dependencies -->
             <dependency>
-                <groupId>org.opencb.biodata</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>biodata-formats</artifactId>
                 <version>${biodata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.biodata</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>biodata-models</artifactId>
                 <version>${biodata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.biodata</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>biodata-tools</artifactId>
                 <version>${biodata.version}</version>
             </dependency>
