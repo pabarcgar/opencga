@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.opencb.opencga</groupId>
+    <groupId>uk.ac.ebi.eva</groupId>
     <artifactId>opencga</artifactId>
     <version>0.5.3</version>
     <packaging>pom</packaging>
@@ -26,16 +26,10 @@
         <cellbase.version>3.1.0</cellbase.version>
     </properties>
 
-    <scm>
-        <url>https://github.com/opencb/opencga</url>
-        <connection>scm:git:git://github.com/opencb/opencga.git</connection>
-        <developerConnection>scm:git:git@github.com:opencb/opencga.git</developerConnection>
-    </scm>
-
     <licenses>
         <license>
-            <name>GNU GENERAL PUBLIC LICENSE Version 2</name>
-            <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
 
@@ -100,49 +94,49 @@
         <dependencies>
             <!-- Intra-module dependencies -->
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-account</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-lib</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-analysis</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-storage-app</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-storage-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.opencga</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>opencga-catalog</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- OpenCB dependencies -->
             <dependency>
-                <groupId>org.opencb.biodata</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>biodata-formats</artifactId>
                 <version>${biodata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.biodata</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>biodata-models</artifactId>
                 <version>${biodata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.opencb.biodata</groupId>
+                <groupId>uk.ac.ebi.eva</groupId>
                 <artifactId>biodata-tools</artifactId>
                 <version>${biodata.version}</version>
             </dependency>
