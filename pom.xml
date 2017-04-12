@@ -6,7 +6,7 @@
 
     <groupId>uk.ac.ebi.eva</groupId>
     <artifactId>opencga</artifactId>
-    <version>0.5.4-SNAPSHOT</version>
+    <version>0.5.4</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -21,7 +21,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <biodata.version>0.4.7-SNAPSHOT</biodata.version>
+        <biodata.version>0.4.7</biodata.version>
         <datastore.version>0.3.3</datastore.version>
         <cellbase.version>3.1.0</cellbase.version>
     </properties>
